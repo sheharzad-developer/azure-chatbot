@@ -1,6 +1,6 @@
 """Streamlit chatbot backed by an Azure AI Foundry deployment.
 
-    streamlit run main.py
+    python -m streamlit run main.py --server.port 8000 --server.address 0.0.0.0
 
 Configuration is read from environment variables, or from a .env file next to
 this script:
